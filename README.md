@@ -45,6 +45,7 @@ Add all txt files in the whole project
 $ git add "*.txt"
 ```
 
+###Remove files
 Remove a file that is being tracked
 ```git
 $ git rm <file>
