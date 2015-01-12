@@ -8,6 +8,7 @@ $ git config --global user.email "GitHub email address"
 $ git config -- global color.ui true
 ```
 
+###Add files to staging area
 Add the list of files
 ```git
 $ git add <list of files>
