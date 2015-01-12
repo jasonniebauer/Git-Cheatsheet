@@ -9,14 +9,14 @@ $ git config --global color.ui true
 $ git config --global core.excludesfile ~/.gitignore_global
 ```
 
-###Help
-```git
-$ git help <command>
-```
-
 ###Status
 ```git
 $ git status
+```
+
+###Help
+```git
+$ git help <command>
 ```
 
 ###Add Files to Staging Area
