@@ -34,6 +34,11 @@ Add all txt files in docs directory
 $ git add /docs*.txt
 ```
 
+Add all files in a directory
+```git
+$ git add /docs*
+```
+
 Add all txt files in the whole project
 ```git
 $ git add "*.txt"
