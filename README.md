@@ -55,3 +55,37 @@ Remove a file that is being tracked
 ```git
 $ git rm <file>
 ```
+
+###Commit Files
+Commit all staged files
+```git
+$ git commit m "your message here"
+```
+
+###Push Files to Repository
+Push files to master branch
+```git
+$ git push
+```
+
+Push files to another branch
+```git
+$ git push origin gh-pages
+```
+
+###Create a Branch
+Create a feature branch
+```git
+$ git checkout -b <feature-name>
+```
+
+Create a gh-pages branch
+```git
+checkout --orphan gh-pages
+```
+
+###Merge Branches
+Merge feature branch into master
+```git
+$ git merge <feature-branch>
+```
