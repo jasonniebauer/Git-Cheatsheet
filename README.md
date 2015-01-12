@@ -29,12 +29,12 @@ Add all txt files in current directory
 $ git add *.txt
 ```
 
-Add all txt files in docs directory
+Add all txt files in sepcific directory
 ```git
 $ git add /docs*.txt
 ```
 
-Add all files in a directory
+Add all files in specific directory
 ```git
 $ git add /docs*
 ```
