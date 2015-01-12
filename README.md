@@ -14,6 +14,11 @@ $ git config --global core.excludesfile ~/.gitignore_global
 $ git help <command>
 ```
 
+###Status
+```git
+$ git status
+```
+
 ###Add Files to Staging Area
 Add the list of files
 ```git
