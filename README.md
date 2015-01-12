@@ -1,6 +1,13 @@
 Git Tips
 ========
 
+###Global Configuration
+```git
+$ git config --global user.name "GitHub username"
+$ git config --global user.email "GitHub email address"
+$ git config -- global color.ui true
+```
+
 Add the list of files
 ```git
 $ git add <list of files>
