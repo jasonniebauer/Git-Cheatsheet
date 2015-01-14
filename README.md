@@ -84,7 +84,7 @@ Push files to another branch
 $ git push origin <branch-name>
 ```
 
-###Create a Branch
+###Create Branches
 Create a feature branch
 ```git
 $ git checkout -b <feature-name>
@@ -99,4 +99,15 @@ $ git checkout --orphan gh-pages
 Merge feature branch into master
 ```git
 $ git merge <feature-branch>
+```
+
+###Remove Branches
+Delete a local branch
+```git
+$ git branch -d <branch-name>
+```
+
+Remove a remote branch (*Careful now*)
+```git
+$ git push origin :<branch-name>
 ```
