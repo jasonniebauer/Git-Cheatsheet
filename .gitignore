@@ -1,0 +1,9 @@
+# Sass Cache remove #
+#####################
+*.sass-cache
+
+# Ignore Sass' cache
+/.sass-cache
+
+# Ignore Map File
+*.map
