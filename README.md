@@ -20,7 +20,7 @@ $ git help <command>
 ```
 
 ###Initialization
-Initialize Git Repository in directory
+Initialize Git Repository in Directory
 ```git
 $ git init
 ```
