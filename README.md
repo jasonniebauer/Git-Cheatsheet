@@ -9,7 +9,7 @@ $ git config --global color.ui true
 $ git config --global core.excludesfile ~/.gitignore_global
 ```
 
-###Add Files to Ignore
+Add Files to Ignore
 ```git
 $ nano ~/.gitignore_global
 ```
@@ -75,7 +75,7 @@ $ git push
 
 Push files to another branch
 ```git
-$ git push origin gh-pages
+$ git push origin <branch-name>
 ```
 
 ###Create a Branch
@@ -86,7 +86,7 @@ $ git checkout -b <feature-name>
 
 Create a gh-pages branch
 ```git
-checkout --orphan gh-pages
+$ git checkout --orphan gh-pages
 ```
 
 ###Merge Branches
