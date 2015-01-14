@@ -9,7 +9,7 @@ $ git config --global color.ui true
 $ git config --global core.excludesfile ~/.gitignore_global
 ```
 
-###Add Files to .gitignore_global
+###Add Files to Ignore
 ```git
 $ nano ~/.gitignore_global
 ```
