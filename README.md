@@ -19,6 +19,12 @@ $ nano ~/.gitignore_global
 $ git help <command>
 ```
 
+###Initialization
+Initialize Git Repository in directory
+```git
+$ git init
+```
+
 ###Status
 ```git
 $ git status
