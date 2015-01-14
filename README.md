@@ -9,6 +9,11 @@ $ git config --global color.ui true
 $ git config --global core.excludesfile ~/.gitignore_global
 ```
 
+###Add Files to .gitignore_global
+```git
+$ nano ~/.gitignore_global
+```
+
 ###Help
 ```git
 $ git help <command>
