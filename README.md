@@ -107,7 +107,7 @@ Delete a local branch
 $ git branch -d <branch-name>
 ```
 
-Remove a remote branch (*Careful now*)
+Remove a remote branch (*Use Caution*)
 ```git
 $ git push origin :<branch-name>
 ```
