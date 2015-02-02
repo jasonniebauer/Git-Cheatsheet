@@ -90,7 +90,7 @@ Create a feature branch
 $ git checkout -b <feature-name>
 ```
 
-Create a gh-pages branch
+Create an orphan branch
 ```git
 $ git checkout --orphan gh-pages
 ```
