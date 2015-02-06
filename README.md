@@ -2,7 +2,7 @@ Git Tips
 ========
 
 ###Global Configuration
-```git
+```sh
 $ git config --global user.name "GitHub username"
 $ git config --global user.email "GitHub email address"
 $ git config --global color.ui true
@@ -10,104 +10,104 @@ $ git config --global core.excludesfile ~/.gitignore_global
 ```
 
 Add Files to Ignore
-```git
+```sh
 $ nano ~/.gitignore_global
 ```
 
 ###Help
-```git
+```sh
 $ git help <command>
 ```
 
 ###Initialization
 Initialize Git Repository in Directory
-```git
+```sh
 $ git init
 ```
 
 ###Status
-```git
+```sh
 $ git status
 ```
 
 ###Add Files to Staging Area
 Add the list of files
-```git
+```sh
 $ git add <list of files>
 ```
 
 Add all files
-```git
+```sh
 $ git add -a
 ```
 
 Add all txt files in current directory
-```git
+```sh
 $ git add *.txt
 ```
 
 Add all txt files in sepcific directory
-```git
+```sh
 $ git add /docs*.txt
 ```
 
 Add all files in specific directory
-```git
+```sh
 $ git add /docs*
 ```
 
 Add all txt files in the whole project
-```git
+```sh
 $ git add "*.txt"
 ```
 
 ###Remove Files
 Remove a file that is being tracked
-```git
+```sh
 $ git rm <file>
 ```
 
 ###Commit Files
 Commit all staged files
-```git
+```sh
 $ git commit m "your message here"
 ```
 
 ###Push Files to Repository
 Push files to master branch
-```git
+```sh
 $ git push
 ```
 
 Push files to another branch
-```git
+```sh
 $ git push origin <branch-name>
 ```
 
 ###Create Branches
 Create a feature branch
-```git
+```sh
 $ git checkout -b <feature-name>
 ```
 
 Create an orphan branch
-```git
+```sh
 $ git checkout --orphan gh-pages
 ```
 
 ###Merge Branches
 Merge feature branch into master
-```git
+```sh
 $ git merge <feature-branch>
 ```
 
 ###Remove Branches
 Delete a local branch
-```git
+```sh
 $ git branch -d <branch-name>
 ```
 
 Remove a remote branch (*Use Caution*)
-```git
+```sh
 $ git push origin :<branch-name>
 ```
