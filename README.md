@@ -36,7 +36,7 @@ $ git remote add origin <GitHub repository URL>
 ```
 
 ###Push to Remote
-Origin = remote repository name, master = local branch to push
+Origin: remote repository name, master: local branch to push
 ```sh
 $ git push -u origin master
 ```
