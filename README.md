@@ -111,11 +111,18 @@ Remove a remote branch (*Use Caution*)
 ```sh
 $ git push origin :<branch-name>
 ```
+
 ###Show unstaged differences since last commit
 ```sh
 $ git diff
 ```
+
 ###View staged differences since last commit
 ```sh
 $ git diff --staged
+```
+
+###Unstage a file (head refers to last commit)
+```sh
+$ git reset HEAD <file>
 ```
