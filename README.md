@@ -85,6 +85,14 @@ Undo last commit, put changes into staging
 ```sh
 $ git reset --soft HEAD^
 ```
+Undo last commit and all changes
+```sh
+$ git reset --hard HEAD^
+```
+Under last two commits and all changes
+```sh
+$ git reset --hard HEAD^^
+```
 
 ###Adding to a Commit
 Add another file or change to the previous commit and override commit message
