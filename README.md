@@ -61,6 +61,11 @@ Add all txt files in the whole project
 $ git add "*.txt"
 ```
 
+###Skip Staging Area and Commit
+```sh
+$ git commit -a -m "message here"
+```
+
 ###Remove Files
 Remove a file that is being tracked
 ```sh
