@@ -38,6 +38,11 @@ $ git remote add <name> <address>
 $ git remote add origin <Github repo url>
 ```
 
+###Remove a Remote Repository
+```sh
+$ git remote rm <name>
+```
+
 ###Push to Remote
 Origin: remote repository name, master: local branch to push
 ```sh
