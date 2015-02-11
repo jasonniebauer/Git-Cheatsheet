@@ -32,7 +32,10 @@ $ git remote -v
 
 ###Adding a Remote Repository
 ```sh
-$ git remote add origin <GitHub repository URL>
+$ git remote add <name> <address>
+```
+```sh
+$ git remote add origin <Github repo url>
 ```
 
 ###Push to Remote
