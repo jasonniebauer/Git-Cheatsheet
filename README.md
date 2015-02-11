@@ -25,6 +25,11 @@ Initialize Git Repository in Directory
 $ git init
 ```
 
+###Adding a Remote Repository
+```sh
+$ git remote add origin <GitHub repository URL>
+```
+
 ###Status
 ```sh
 $ git status
