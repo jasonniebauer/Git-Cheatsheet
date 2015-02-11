@@ -111,7 +111,11 @@ Remove a remote branch (*Use Caution*)
 ```sh
 $ git push origin :<branch-name>
 ```
-###Forgot what changes you just made? (before staging files)
+###Show unstaged differences since last commit
 ```sh
 $ git diff
+```
+###View staged differences since last commit
+```sh
+$ git diff --staged
 ```
