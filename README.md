@@ -34,6 +34,7 @@ $ git remote -v
 ```sh
 $ git remote add <name> <address>
 ```
+Example
 ```sh
 $ git remote add origin <Github repo url>
 ```
@@ -45,6 +46,10 @@ $ git remote rm <name>
 
 ###Push to Remote
 Origin: remote repository name, master: local branch to push
+```sh
+$ git push -u <name> <branch>
+```
+Example
 ```sh
 $ git push -u origin master
 ```
