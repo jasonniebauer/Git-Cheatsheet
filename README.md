@@ -112,12 +112,14 @@ Remove a remote branch (*Use Caution*)
 $ git push origin :<branch-name>
 ```
 
-###Show unstaged differences since last commit
+###Viewing Unstaged Differences
+View unstaged differences since last commit
 ```sh
 $ git diff
 ```
 
-###View staged differences since last commit
+###Viewing Staged Differences
+View staged differences since last commit
 ```sh
 $ git diff --staged
 ```
