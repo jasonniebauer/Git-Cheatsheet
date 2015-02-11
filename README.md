@@ -30,6 +30,11 @@ $ git init
 $ git remote add origin <GitHub repository URL>
 ```
 
+###Show Remote Repositories
+```sh
+$ git remote -v
+```
+
 ###Status
 ```sh
 $ git status
