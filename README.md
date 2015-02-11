@@ -80,7 +80,7 @@ $ git commit m "your message here"
 ```
 
 ###Undoing a Commit
-Undo last commit and move everything from that commit back into staging
+Undo last commit, put changes into staging
 (HEAD^ means move to the last commit before 'HEAD')
 ```sh
 $ git reset --soft HEAD^
