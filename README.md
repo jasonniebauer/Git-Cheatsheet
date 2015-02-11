@@ -186,7 +186,13 @@ Unstage a file (head refers to last commit)
 $ git reset HEAD <file name>
 ```
 
-Remove all changes to a file since last commit
+Remove all changes to a file since the last commit
 ```sh
 $ git checkout -- <file name>
+```
+
+###Remove all changes to multiple files in the last commit
+Chain files together in a single command
+```sh
+$ git checkout -- <file 1 name> <file 2 name>
 ```
