@@ -62,8 +62,9 @@ $ git add "*.txt"
 ```
 
 ###Skip Staging Area and Commit
+Add changes from all tracked files
 ```sh
-$ git commit -a -m "message here"
+$ git commit -a -m "commit message"
 ```
 
 ###Remove Files
