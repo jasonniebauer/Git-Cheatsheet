@@ -86,6 +86,12 @@ Undo last commit and move everything from that commit back into staging
 $ git reset --soft HEAD^
 ```
 
+###Adding to a Commit
+Add another file or change to the previous commit and override commit message
+```sh
+$ git commit --amend -m "new commit message"
+```
+
 ###Push Files to Repository
 Push files to master branch
 ```sh
