@@ -25,14 +25,20 @@ Initialize Git Repository in Directory
 $ git init
 ```
 
+###Show Remote Repositories
+```sh
+$ git remote -v
+```
+
 ###Adding a Remote Repository
 ```sh
 $ git remote add origin <GitHub repository URL>
 ```
 
-###Show Remote Repositories
+###Push to Remote
+Origin = remote repository name, master = local branch to push
 ```sh
-$ git remote -v
+$ git push -u origin master
 ```
 
 ###Status
