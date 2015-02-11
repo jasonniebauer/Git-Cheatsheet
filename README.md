@@ -124,5 +124,10 @@ $ git diff --staged
 
 ###Unstage a file (head refers to last commit)
 ```sh
-$ git reset HEAD <file>
+$ git reset HEAD <file name>
+```
+
+###Remove all changes to a file since last commit
+```sh
+$ git checkout -- <file name>
 ```
