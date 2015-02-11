@@ -111,3 +111,7 @@ Remove a remote branch (*Use Caution*)
 ```sh
 $ git push origin :<branch-name>
 ```
+###Forgot what changes you just made?
+```sh
+$ git diff
+```
