@@ -56,12 +56,12 @@ $ git push -u origin master
 
 ###Clone a Repository
 ```sh
-$ git clone <repository url>
+$ git clone <repository-url>
 ```
 
 ###Clone Repository and Rename
 ```sh
-$ git clone <repository url> <new name>
+$ git clone <repository-url> <new-name>
 ```
 
 ###Status
@@ -168,7 +168,12 @@ $ git branch
 
 ###Switching to a Branch
 ```sh
-$ git checkout <branch name>
+$ git checkout <branch-name>
+```
+
+###Check the Git Log
+```sh
+$ git log
 ```
 
 ###Merge Branches
@@ -178,7 +183,7 @@ $ git merge <feature-branch>
 ```
 
 ###Remove Branches
-Delete a local branch
+Delete a local branch (clean up)
 ```sh
 $ git branch -d <branch-name>
 ```
