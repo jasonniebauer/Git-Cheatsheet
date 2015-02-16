@@ -166,6 +166,11 @@ $ git checkout --orphan gh-pages
 $ git branch
 ```
 
+###Switch Branches
+```sh
+$ git checkout <branch name>
+```
+
 ###Merge Branches
 Merge feature branch into master
 ```sh
