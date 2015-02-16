@@ -161,6 +161,11 @@ Create an orphan branch
 $ git checkout --orphan gh-pages
 ```
 
+###Check which Branch you are on
+```sh
+$ git branch
+```
+
 ###Merge Branches
 Merge feature branch into master
 ```sh
