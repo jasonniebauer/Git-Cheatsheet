@@ -153,6 +153,11 @@ $ git push origin <branch-name>
 ###Create Branches
 Create a feature branch
 ```sh
+$ git branch <feature-name>
+```
+
+Create a feature branch and check it out
+```sh
 $ git checkout -b <feature-name>
 ```
 
