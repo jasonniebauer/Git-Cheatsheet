@@ -166,7 +166,7 @@ $ git checkout --orphan gh-pages
 $ git branch
 ```
 
-###Switch Branches
+###Switching to a Branch
 ```sh
 $ git checkout <branch name>
 ```
