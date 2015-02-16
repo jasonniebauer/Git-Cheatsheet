@@ -54,6 +54,16 @@ Example
 $ git push -u origin master
 ```
 
+###Clone a Repository
+```sh
+$ git clone <repository url>
+```
+
+###Clone Repository and Rename
+```sh
+$ git clone <repository url> <new name>
+```
+
 ###Status
 ```sh
 $ git status
