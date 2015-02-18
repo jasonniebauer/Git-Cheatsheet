@@ -255,3 +255,30 @@ Chain files together in a single command
 ```sh
 $ git checkout -- <file 1 name> <file 2 name>
 ```
+
+###Tagging
+Tags are references to a commit (often used for release versioning)
+
+List all tags
+```sh
+$ git tags
+```
+
+Checkout code at commit
+```sh
+$ git checkout <tag-name>
+```
+
+Add a new tag
+```sh
+$ git tag -a <tag-name> -m "<tag-description>"
+```
+Example
+```sh
+$ git tag -a v0.0.1 -m "version 0.0.1"
+```
+
+Push Tags
+```sh
+$ git push --tags
+```
