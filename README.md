@@ -222,7 +222,7 @@ Confirm removal of the local remote
 $ git branch -D <branch-name>
 ```
 
-###Remote Clean Up
+###Clean Up Deleted Remote Branches
 ```sh
 $ git remote prune origin
 ```
