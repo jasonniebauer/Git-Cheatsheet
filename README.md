@@ -182,9 +182,7 @@ $ git branch -r
 ```
 
 ###Remote Show
-Show: Remote branches and whether they are tracked or not.
-Show: Local branches and which branches they merge with.
-Show: Local branches configured for git push and whether they are out of date or not.
+Shows remote branches and whether they are tracked or not, local branches and which branches they merge with, and local branches configured for git push and whether they are out of date or not.
 ```sh
 $ git remote show <remote-name>
 ```
