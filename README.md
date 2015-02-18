@@ -176,9 +176,14 @@ $ git push origin <branch-name>
 $ git branch
 ```
 
-List all Remote Branches
+###List all Remote Branches
 ```sh
 $ git branch -r
+```
+
+###Remote Show
+```sh
+$ git remote show <remote-name>
 ```
 
 ###Switching to a Branch
