@@ -187,19 +187,6 @@ Shows remote branches and whether they are tracked or not, local branches and wh
 $ git remote show <remote-name>
 ```
 
-###Remove a Remote
-```sh
-$ git push origin :<branch-name>
-```
-After removing the remote, remove locally
-```sh
-$ git branch -d <branch-name>
-```
-Confirm removal of the local remote
-```sh
-$ git branch -D <branch-name>
-```
-
 ###Switching to a Branch
 ```sh
 $ git checkout <branch-name>
@@ -225,6 +212,19 @@ $ git branch -d <branch-name>
 Remove a remote branch (*Use Caution*)
 ```sh
 $ git push origin :<branch-name>
+```
+After removing the remote, remove locally
+```sh
+$ git branch -d <branch-name>
+```
+Confirm removal of the local remote
+```sh
+$ git branch -D <branch-name>
+```
+
+###Remote Clean Up
+```sh
+$ git remote prune origin
 ```
 
 ###Viewing Unstaged Differences
