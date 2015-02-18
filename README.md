@@ -284,13 +284,13 @@ $ git push --tags
 ```
 
 ###Pull
-Pull to update (automatically merges)
+Pulls changes to local and automatically merges
 ```sh
 $ git pull
 ```
 
 ###Fetch
-Update only local (does not automatically merge)
+Pulls changes to local, but does not automatically merge
 ```sh
 $ git fetch
 ```
