@@ -300,3 +300,31 @@ Rebase moves all changes in master that are not in our working files to a tempor
 ```sh
 $ git rebase
 ```
+
+###Local Branch Rebase
+Switch branches
+```sh
+$ git checkout <branch-name>
+```
+First, run master commits and then run our branch commits
+```sh
+$ git rebase master
+```
+If all goes well, checkout and merge to master
+```sh
+$ git merge <branch-name>
+```
+
+###Rebase Conflicts
+After fixing conflict, continue rebase
+```sh
+$ git rebase --continue
+```
+If you prefer to skip the conflict patch
+```sh
+$ git rebase --skip
+```
+Or to checkout original branch and stop rebasing
+```sh
+$ git rebase --abort
+```
