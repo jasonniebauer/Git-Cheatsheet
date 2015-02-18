@@ -282,3 +282,15 @@ Push Tags
 ```sh
 $ git push --tags
 ```
+
+###Pull
+Pull to update (automatically merges)
+```sh
+$ git pull
+```
+
+###Fetch
+Update only local (does not automatically merge)
+```sh
+$ git fetch
+```
