@@ -294,3 +294,9 @@ Pulls changes to local, but does not automatically merge
 ```sh
 $ git fetch
 ```
+
+###Rebase
+Rebase moves all changes in master that are not in our working files to a temporay area, and then run all commits in the temporary area one at a time.
+```sh
+$ git rebase
+```
