@@ -166,6 +166,11 @@ Create an orphan branch
 $ git checkout --orphan gh-pages
 ```
 
+Link Local Branch to the Remote Branch
+```sh
+$ git push origin <branch-name>
+```
+
 ###Check which Branch you are on
 ```sh
 $ git branch
