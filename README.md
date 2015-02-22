@@ -1,4 +1,4 @@
-Git Tips
+Git Cheatsheet
 ========
 
 ###Global Configuration
