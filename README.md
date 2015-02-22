@@ -101,9 +101,13 @@ $ git add "*.txt"
 ```
 
 ###Skip Staging Area and Commit
-Add changes from all tracked files
+Add changes from all tracked files and commit
 ```sh
 $ git commit -a -m "commit message"
+```
+Shorthand for adding all and commit
+```sh
+$ git commit -am "commit message"
 ```
 
 ###Remove Files
