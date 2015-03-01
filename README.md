@@ -14,7 +14,13 @@ Add Files to Ignore
 $ nano ~/.gitignore_global
 ```
 
-**Exclude a directory by placing the directory name/ in .git/info/exclude**
+###Excludes
+Place excludes in .git/info/exclude
+- Exclude directory **experiments/**
+- Exclude file **test.mp4** 
+- Exclude all mp4 files __*.mp4__
+- Exclude log files inside log directory __logs/*.log__
+
 
 ###Help
 ```sh
