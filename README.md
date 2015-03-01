@@ -312,6 +312,11 @@ View time-based differences
 $ git diff --since=1.week.ago --until=1.minute.ago
 ```
 
+View diff with log
+```sh
+$git log -p
+```
+
 View who made changes
 ```sh
 $ git blame <file-name> --date short
