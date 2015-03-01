@@ -1,6 +1,12 @@
 Git Cheatsheet
 ========
 
+### Repo Configuration
+Setup email
+```sh
+$ git config user.email "<email-address-here>"
+```
+
 ###Global Configuration
 Setup username
 ```sh
