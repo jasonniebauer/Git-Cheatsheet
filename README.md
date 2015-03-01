@@ -2,17 +2,34 @@ Git Cheatsheet
 ========
 
 ###Global Configuration
+Setup username
 ```sh
 $ git config --global user.name "GitHub username"
+```
+
+Setup email address
+```sh
 $ git config --global user.email "GitHub email address"
+```
+
+Setup commit color helpers
+```sh
 $ git config --global color.ui true
+```
+
+Set the default editor
+```sh
 $ git config --global core.editor nano
+```
+
+Setup Git Ignore file
+```sh
 $ git config --global core.excludesfile ~/.gitignore_global
 ```
 
-Add Files to Ignore
+Setup Aliases (git st = git status)
 ```sh
-$ nano ~/.gitignore_global
+$ git config --global alias.st status
 ```
 
 ###Excludes
@@ -22,6 +39,10 @@ Place excludes in .git/info/exclude
 - Exclude all mp4 files __*.mp4__
 - Exclude log files inside log directory __logs/*.log__
 
+Add Files to Ignore
+```sh
+$ nano ~/.gitignore_global
+```
 
 ###Help
 ```sh
