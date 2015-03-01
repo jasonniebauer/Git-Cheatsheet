@@ -124,6 +124,11 @@ Remove a file that is being tracked
 $ git rm <file>
 ```
 
+Remove just tracking
+```sh
+$ git rm --cached <file-name>
+```
+
 ###Commit Files
 Commit all staged files
 ```sh
