@@ -277,6 +277,11 @@ View time-based differences
 $ git diff --since=1.week.ago --until=1.minute.ago
 ```
 
+View who made changes
+```sh
+$ git blame <file-name> --date short
+```
+
 ###Viewing Staged Differences
 View staged differences since last commit
 ```sh
