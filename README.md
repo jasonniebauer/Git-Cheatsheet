@@ -201,6 +201,11 @@ $ git checkout <branch-name>
 $ git log
 ```
 
+Exit Git log
+```sh
+$ q
+```
+
 ###Merge Branches
 Merge feature branch into master
 ```sh
