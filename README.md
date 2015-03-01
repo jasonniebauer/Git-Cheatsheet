@@ -267,6 +267,11 @@ View second most recent commit vs most recent
 $ git diff HEAD^..HEAD
 ```
 
+View difference between two branches
+```sh
+$ git diff master <branch-name to compare against>
+```
+
 ###Viewing Staged Differences
 View staged differences since last commit
 ```sh
