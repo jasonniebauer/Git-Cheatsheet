@@ -237,6 +237,26 @@ View unstaged differences since last commit
 $ git diff
 ```
 
+View parent of latest commit
+```sh
+$ git diff HEAD^
+```
+
+View grandparent of latest commit
+```sh
+$ git diff HEAD^^
+```
+
+View diff 5 commits ago
+```sh
+$ git diff HEAD~5
+```
+
+View second most recent commit vs most recent
+```sh
+$ git diff HEAD^..HEAD
+```
+
 ###Viewing Staged Differences
 View staged differences since last commit
 ```sh
