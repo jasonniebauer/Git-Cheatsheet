@@ -6,6 +6,7 @@ Git Cheatsheet
 $ git config --global user.name "GitHub username"
 $ git config --global user.email "GitHub email address"
 $ git config --global color.ui true
+$ git config --global core.editor nano
 $ git config --global core.excludesfile ~/.gitignore_global
 ```
 
