@@ -201,6 +201,11 @@ $ git checkout <branch-name>
 $ git log
 ```
 
+View single line per log
+```sh
+$ git log --online
+```
+
 Exit Git log
 ```sh
 $ q
