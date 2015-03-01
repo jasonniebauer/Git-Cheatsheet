@@ -272,6 +272,11 @@ View difference between two branches
 $ git diff master <branch-name to compare against>
 ```
 
+View time-based differences
+```sh
+$ git diff --since=1.week.ago --until=1.minute.ago
+```
+
 ###Viewing Staged Differences
 View staged differences since last commit
 ```sh
