@@ -14,6 +14,8 @@ Add Files to Ignore
 $ nano ~/.gitignore_global
 ```
 
+**Exclude a directory by placing the directory name/ in .git/info/exclude**
+
 ###Help
 ```sh
 $ git help <command>
