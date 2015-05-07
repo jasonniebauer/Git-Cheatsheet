@@ -390,6 +390,17 @@ Pulls changes to local, but does not automatically merge
 $ git fetch
 ```
 
+###Keep a Fork Up-to-date
+1. Add remote from the original repository in your forked repository:
+```
+$ git remote add upstream git://github.com/ORIGINAL-DEV-USERNAME/REPO-YOU-FORKED-FROM.git
+$ git fetch upstream
+```
+2. Update your fork from the original repository to stay up-to-date with the original repository's changes:
+```
+$ git pull upstream master
+```
+
 ###Rebase
 Rebase moves all changes in master that are not in our working files to a temporay area, and then run all commits in the temporary area one at a time.
 ```sh
