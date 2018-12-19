@@ -1,5 +1,26 @@
-Git Cheatsheet
-========
+# Git Cheatsheet
+
+**Table of contents**
+- [Default Settings](#default-settings)
+
+## Default Settings
+Use the command below to view *all* Git settings.
+```sh
+git config --list
+```
+
+View specific settings by using one of the following options below.
+
+| Option   | Description                              |
+|:---------|:-----------------------------------------|
+| --system | Settings for every user on the machine.  |
+| --global | Settings for every one of your projects. |
+| --local  | Settings for one specific project.       |
+
+Default settings for all of your projects will be ouput using the following command.
+```sh
+git config --list --global
+```
 
 ### Repo Configuration
 Setup email
@@ -7,7 +28,7 @@ Setup email
 $ git config user.email "<email-address-here>"
 ```
 
-###Global Configuration
+### Global Configuration
 Setup username
 ```sh
 $ git config --global user.name "GitHub username"
@@ -38,7 +59,7 @@ Setup Aliases (git st = git status)
 $ git config --global alias.st status
 ```
 
-###Excludes
+### Excludes
 Place excludes in .git/info/exclude
 - Exclude directory **experiments/**
 - Exclude file **test.mp4** 
@@ -50,23 +71,23 @@ Add Files to Ignore
 $ nano ~/.gitignore_global
 ```
 
-###Help
+### Help
 ```sh
 $ git help <command>
 ```
 
-###Initialization
+### Initialization
 Initialize Git Repository in Directory
 ```sh
 $ git init
 ```
 
-###Show Remote Repositories
+### Show Remote Repositories
 ```sh
 $ git remote -v
 ```
 
-###Adding a Remote Repository
+### Adding a Remote Repository
 ```sh
 $ git remote add <name> <address>
 ```
@@ -75,12 +96,12 @@ Example
 $ git remote add origin <Github repo url>
 ```
 
-###Remove a Remote Repository
+### Remove a Remote Repository
 ```sh
 $ git remote rm <name>
 ```
 
-###Push to Remote
+### Push to Remote
 Origin: remote repository name, master: local branch to push
 ```sh
 $ git push -u <name> <branch>
@@ -90,22 +111,22 @@ Example
 $ git push -u origin master
 ```
 
-###Clone a Repository
+### Clone a Repository
 ```sh
 $ git clone <repository-url>
 ```
 
-###Clone Repository and Rename
+### Clone Repository and Rename
 ```sh
 $ git clone <repository-url> <new-name>
 ```
 
-###Status
+### Status
 ```sh
 $ git status
 ```
 
-###Add Files to Staging Area
+### Add Files to Staging Area
 Add the list of files
 ```sh
 $ git add <list of files>
@@ -136,7 +157,7 @@ Add all txt files in the whole project
 $ git add "*.txt"
 ```
 
-###Skip Staging Area and Commit
+### Skip Staging Area and Commit
 Add changes from all tracked files and commit
 ```sh
 $ git commit -a -m "commit message"
@@ -146,7 +167,7 @@ Shorthand for adding all and commit
 $ git commit -am "commit message"
 ```
 
-###Remove Files
+### Remove Files
 Remove a file that is being tracked
 ```sh
 $ git rm <file>
@@ -157,13 +178,13 @@ Remove just tracking
 $ git rm --cached <file-name>
 ```
 
-###Commit Files
+### Commit Files
 Commit all staged files
 ```sh
 $ git commit m "your message here"
 ```
 
-###Undoing a Commit
+### Undoing a Commit
 Undo last commit, put changes into staging
 (HEAD^ means move to the last commit before 'HEAD')
 ```sh
@@ -178,13 +199,13 @@ Under last two commits and all changes
 $ git reset --hard HEAD^^
 ```
 
-###Adding to a Commit
+### Adding to a Commit
 Add another file or change to the previous commit and override commit message
 ```sh
 $ git commit --amend -m "new commit message"
 ```
 
-###Push Files to Repository
+### Push Files to Repository
 Push files to master branch
 ```sh
 $ git push
@@ -195,7 +216,7 @@ Push files to another branch
 $ git push origin <branch-name>
 ```
 
-###Create Branches
+### Create Branches
 Create a feature branch
 ```sh
 $ git branch <feature-name>
@@ -216,28 +237,28 @@ Link Local Branch to the Remote Branch
 $ git push origin <branch-name>
 ```
 
-###Check which Branch you are on
+### Check which Branch you are on
 ```sh
 $ git branch
 ```
 
-###List all Remote Branches
+### List all Remote Branches
 ```sh
 $ git branch -r
 ```
 
-###Remote Show
+### Remote Show
 Shows remote branches and whether they are tracked or not, local branches and which branches they merge with, and local branches configured for git push and whether they are out of date or not.
 ```sh
 $ git remote show <remote-name>
 ```
 
-###Switching to a Branch
+### Switching to a Branch
 ```sh
 $ git checkout <branch-name>
 ```
 
-###Check the Git Log
+### Check the Git Log
 ```sh
 $ git log
 ```
@@ -252,13 +273,13 @@ Exit Git log
 $ q
 ```
 
-###Merge Branches
+### Merge Branches
 Merge feature branch into master
 ```sh
 $ git merge <feature-branch>
 ```
 
-###Remove Branches
+### Remove Branches
 Delete a local branch (clean up)
 ```sh
 $ git branch -d <branch-name>
@@ -277,12 +298,12 @@ Confirm removal of the local remote
 $ git branch -D <branch-name>
 ```
 
-###Clean Up Deleted Remote Branches
+### Clean Up Deleted Remote Branches
 ```sh
 $ git remote prune origin
 ```
 
-###Viewing Unstaged Differences
+### Viewing Unstaged Differences
 View unstaged differences since last commit
 ```sh
 $ git diff
@@ -328,7 +349,7 @@ View who made changes
 $ git blame <file-name> --date short
 ```
 
-###Viewing Staged Differences
+### Viewing Staged Differences
 View staged differences since last commit
 ```sh
 $ git diff --staged
@@ -345,13 +366,13 @@ Remove all changes to a file since the last commit
 $ git checkout -- <file name>
 ```
 
-###Remove all changes to multiple files in the last commit
+### Remove all changes to multiple files in the last commit
 Chain files together in a single command
 ```sh
 $ git checkout -- <file 1 name> <file 2 name>
 ```
 
-###Tagging
+### Tagging
 Tags are references to a commit (often used for release versioning)
 
 List all tags
@@ -378,19 +399,19 @@ Push Tags
 $ git push --tags
 ```
 
-###Pull
+### Pull
 Pulls changes to local and automatically merges
 ```sh
 $ git pull
 ```
 
-###Fetch
+### Fetch
 Pulls changes to local, but does not automatically merge
 ```sh
 $ git fetch
 ```
 
-###Keep a Fork Up-to-date
+### Keep a Fork Up-to-date
 1. Add remote from the original repository in your forked repository:
 ```
 $ git remote add upstream git://github.com/ORIGINAL-DEV-USERNAME/REPO-YOU-FORKED-FROM.git
@@ -401,13 +422,13 @@ $ git fetch upstream
 $ git pull upstream master
 ```
 
-###Rebase
+### Rebase
 Rebase moves all changes in master that are not in our working files to a temporay area, and then run all commits in the temporary area one at a time.
 ```sh
 $ git rebase
 ```
 
-###Local Branch Rebase
+### Local Branch Rebase
 Switch branches
 ```sh
 $ git checkout <branch-name>
@@ -421,7 +442,7 @@ If all goes well, checkout and merge to master
 $ git merge <branch-name>
 ```
 
-###Rebase Conflicts
+### Rebase Conflicts
 After fixing conflict, continue rebase
 ```sh
 $ git rebase --continue
