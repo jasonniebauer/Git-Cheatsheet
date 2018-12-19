@@ -2,6 +2,7 @@
 
 **Table of contents**
 - [Default Settings](#default-settings)
+    - [Global Configuration](#global-configuration)
 
 ## Default Settings
 Use the command below to view *all* Git settings.
@@ -22,23 +23,20 @@ Default settings for all of your projects will be ouput using the following comm
 git config --list --global
 ```
 
-### Repo Configuration
-Setup email
-```sh
-$ git config user.email "<email-address-here>"
-```
-
 ### Global Configuration
-Setup username
+Most of Git's settings should be left as is. However, there are two you should set on every machine: your name and your email address. These are recorded in commit logs to identify the content's author.
+
+**Set your name**
 ```sh
-$ git config --global user.name "GitHub username"
+git config --global user.name "John Doe"
 ```
 
-Setup email address
+**Set your email address**
 ```sh
-$ git config --global user.email "GitHub email address"
+git config --global user.email "example@email.com"
 ```
 
+### More Configurations (optional)
 Setup commit color helpers
 ```sh
 $ git config --global color.ui true
