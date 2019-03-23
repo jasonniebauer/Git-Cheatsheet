@@ -5,6 +5,7 @@
 - [Repositories](#repositories)
   - [Default Settings](#default-settings)  
   - [Global Configuration](#global-configuration)
+  - [Optional Configuration](#optional-configuration)
 - [Undo](#undo)
 - [Working with Branches](#working-with-branches)
 - [Collaborating](#collaborating)
@@ -42,8 +43,9 @@ git config --global user.name "John Doe"
 ```sh
 git config --global user.email "example@email.com"
 ```
+**[⬆ back to top](#table-of-contents)**
 
-### More Configurations (optional)
+## Optional Configuration
 Setup commit color helpers
 ```sh
 $ git config --global color.ui true
@@ -64,6 +66,8 @@ Setup Aliases (git st = git status)
 $ git config --global alias.st status
 ```
 
+**[⬆ back to top](#table-of-contents)**
+
 ### Excludes
 Place excludes in .git/info/exclude
 - Exclude directory **experiments/**
@@ -75,6 +79,7 @@ Add Files to Ignore
 ```sh
 $ nano ~/.gitignore_global
 ```
+**[⬆ back to top](#table-of-contents)**
 
 ### Help
 ```sh
