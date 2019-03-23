@@ -1,13 +1,13 @@
 # Git Cheatsheet
 
-**Table of contents**
-- [Basic Workflow](#basic-workflow)
-- [Repositories](#repositories)
-  - [Default Settings](#default-settings)
-    - [Global Configuration](#global-configuration)
-- [Undo](#undo)
-- [Working with Branches](#working-with-branches)
-- [Collaborating](#collaborating)
+**Table of Contents**
+* [Basic Workflow](#basic-workflow)
+* [Repositories](#repositories)
+  * [Default Settings](#default-settings)  
+    * [Global Configuration](#global-configuration)
+* [Undo](#undo)
+* [Working with Branches](#working-with-branches)
+* [Collaborating](#collaborating)
 
 ## Default Settings
 Use the command below to view *all* Git settings.
