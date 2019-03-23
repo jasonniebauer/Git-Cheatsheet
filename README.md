@@ -1,13 +1,13 @@
 # Git Cheatsheet
 
-**Table of Contents**
-* [Basic Workflow](#basic-workflow)
-* [Repositories](#repositories)
-  * [Default Settings](#default-settings)  
-    * [Global Configuration](#global-configuration)
-* [Undo](#undo)
-* [Working with Branches](#working-with-branches)
-* [Collaborating](#collaborating)
+## Table of Contents
+- [Basic Workflow](#basic-workflow)
+- [Repositories](#repositories)
+  - [Default Settings](#default-settings)  
+  - [Global Configuration](#global-configuration)
+- [Undo](#undo)
+- [Working with Branches](#working-with-branches)
+- [Collaborating](#collaborating)
 
 ## Default Settings
 Use the command below to view *all* Git settings.
@@ -28,7 +28,9 @@ Default settings for all of your projects will be ouput using the following comm
 git config --list --global
 ```
 
-### Global Configuration
+**[⬆ back to top](#table-of-contents)**
+
+## Global Configuration
 Most of Git's settings should be left as is. However, there are two you should set on every machine: your name and your email address. These are recorded in commit logs to identify the content's author.
 
 **Set your name**
