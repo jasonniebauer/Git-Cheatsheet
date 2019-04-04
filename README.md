@@ -10,7 +10,11 @@
 - [Working with Branches](#working-with-branches)
 - [Collaborating](#collaborating)
 
-## Default Settings
+## Basic Workflow
+
+## Repositories
+
+### Default Settings
 Use the command below to view *all* Git settings.
 ```sh
 git config --list
@@ -31,7 +35,7 @@ git config --list --global
 
 **[⬆ back to top](#table-of-contents)**
 
-## Global Configuration
+### Global Configuration
 Most of Git's settings should be left as is. However, there are two you should set on every machine: your name and your email address. These are recorded in commit logs to identify the content's author.
 
 **Set your name**
@@ -45,7 +49,7 @@ git config --global user.email "example@email.com"
 ```
 **[⬆ back to top](#table-of-contents)**
 
-## Optional Configuration
+### Optional Configuration
 Setup commit color helpers
 ```sh
 $ git config --global color.ui true
@@ -67,6 +71,14 @@ $ git config --global alias.st status
 ```
 
 **[⬆ back to top](#table-of-contents)**
+
+## Undo
+
+## Working with Branchs
+
+## Collaborating
+
+---
 
 ### Excludes
 Place excludes in .git/info/exclude
